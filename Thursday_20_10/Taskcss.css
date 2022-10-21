@@ -1,0 +1,30 @@
+.One {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 900px;
+    background-color: aliceblue;
+}
+
+.Two {
+    border-style: dashed;
+    border-color: black;
+    border-width: 3px;
+    width: 900px;
+    background-color: azure;
+}
+
+.Three {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 900px;
+    background-color: azure;
+}
+
+#Two2 {
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    width: 850px;
+}

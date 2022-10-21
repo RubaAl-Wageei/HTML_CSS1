@@ -1,0 +1,20 @@
+h1 {
+    text-decoration: underline ;
+    text-decoration-color: black ;
+}
+
+.A {
+    color: blue;
+}
+
+.B{
+    color: coral;
+}
+
+#C{
+    background-color: rgb(224, 220, 102);
+}
+
+.D{
+    color: rgb(155, 16, 34);
+}
