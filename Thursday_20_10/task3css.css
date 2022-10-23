@@ -1,6 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap'); */
+
 h1 {
     text-decoration: underline ;
     text-decoration-color: black ;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-weight: 700; */
 }
 
 .A {
