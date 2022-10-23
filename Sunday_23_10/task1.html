@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 1</title>
     <style>
-        li {
+        p {
             display:inline-block;
-            border: 1px solid black;
-            padding: 3px 50px 15px 50px;
+        
+        }
+
+        .Num {
+            border: 2px solid rgb(0, 0, 0);
+            padding: 3px 50px 10px 50px;
             background-color: indigo;
             color: white;
+            font-size: x-large;
+        }
+        .hidden {
+            visibility: hidden;
         }
     </style>
 </head>
@@ -19,13 +27,18 @@
     <h1>Hide even numbers from 1 to 10 !</h1>
 
     <br>
+    <div>
+        <p class="Num">1</p>
+        <p class="hidden">2</p>
+        <p class="Num">3</p>
+        <p class="hidden">4</p>
+        <p class="Num">5</p>
+        <p class="hidden">6</p>
+        <p class="Num">7</p>
+        <p class="hidden">8</p>
+        <p class="Num">9</p>
+        <p class="hidden">10</p>
 
-    <ul>
-        <li>1</li>
-        <li>3</li>
-        <li>5</li>
-        <li>7</li>
-        <li>9</li>
-    </ul>
+    </div>
 </body>
 </html>
