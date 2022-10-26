@@ -5,101 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 2</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-
-
+    <script src="https://kit.fontawesome.com/6487c144b2.js" crossorigin="anonymous"></script>
     <style>
         body {
-            background-color:lightsalmon;
-            display: flex;
-            justify-content: center;
+            background-color: lightgreen;
         }
 
-        #grand {
-            border-radius: 30px;
+        #container {
+            border: 1px solid azure;
             background-color: azure;
-            width: 300px;
-            height: 400px;
+            border-radius: 20px;
+            width: 400px;
+            height: 500px;
+            /* margin: 50%; */
+            /* position: relative; */
         }
 
-        .parent{
-            display: flex;
-            align-items: center;
-        }
-
-        .child {
-            margin: 0 5px;
+        .div {
+            /* position: relative; */
+            margin: 10%;
         }
 
         i {
-            /* width: 5px;
-            height: 50px;
-             */
+            font-size: 50px;
+            position: relative;
         }
 
-        /* #border {
-            display: flex;
-            flex-wrap: wrap;
-            border: 1px solid rgb(255, 255, 255);
-            border-radius: 30px;
-            width: 300px;
-            height: 400px;
-            background-color:azure;
-            margin: 5% 40%
-          
-           
+        #user1{
+            position: absolute;
+            top: 5%;
+            right : 90%;
         }
 
-        .style1 {
-            width: 100px;
-            font-size: x-large;
-            text-align: center;
-          
+        #user2{
+            position: absolute;
+            top: 20%;
+            right: 90%;
         }
 
-        .style2 {
-            width: 200px;
-        } */
+        #user3 {
+            position: absolute;
+            top: 35%;
+            right: 90%;
+        }
 
-        
+        #user4 {
+            position: absolute;
+            top: 50%;
+            right: 90%;
+        }
+
+        .para {
+            font-size: 10px;
+            margin: 3% 15% 10% 17%;
+        }
+
     </style>
 </head>
 <body>
-    <div id="grand">
+    <div id="container">
 
-        <div class="parent">
-            <i class='fa fa-user-circle-o'></i>           
-             <div class="child">
-                <h4>User#1</h4>
-                <p>Amman, Jordan</p>
-            </div>
+        <div class="div">
+            <i class="fa-solid fa-user"></i>
+            <h4 id="user1">User #1</h4>
+            <p class="para">Amman, JOrdan</p>
         </div>
 
-        <div class="parent">
-           <i class='fa fa-user-circle-o'></i>
-            <div class="child">
-                <h4>User#2</h4>
-                <p>Salt, Jordan</p>
-            </div>
+        <div class="div">
+            <i class="fa-solid fa-user"></i>
+            <h4 id="user2">User #2</h4>
+            <p class="para">Salt, Jordan</p>
         </div>
 
-        <div class="parent">
-           <i class='fa fa-user-circle-o'></i>
-            <div class="child">
-                <h4>User#3</h4>
-                <p>Zarqa, Jordan</p>
-            </div>
+        <div class="div">
+            <i class="fa-solid fa-user"></i>
+            <h4 id="user3">User#3</h4>
+            <p class="para">Zarqa, Jordan</p>
         </div>
 
-        <div class="parent">
-           <i class='fa fa-user-circle-o'></i>
-            <div class="child">
-                <h4>User#4</h4>
-                <p>Irbid, Jordan</p>
-            </div>
+        <div class="div">
+            <i class="fa-solid fa-user"></i>
+            <h4 id="user4">User #4</h4>
+            <p class="para">Irbid, Jordan</p>
         </div>
-        
+
     </div>
 </body>
 </html>
