@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        body {
+            background-color: rgb(195, 175, 236);
+            margin: 0% 10%;
+        }
+
+        .para {
+            text-align: justify;
+        }
+
+        #div {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: space-between;
+        }
+
+        .figure {
+            border: 1px solid lightgrey;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 0px 20px;
+            background-color: black;
+            
+        }
+
+        .img {
+            width: 350px;
+            height: 250px;
+            /* border: 1px solid black; */
+            /* padding: 10px; */
+            /* box-shadow: 5px 10px black; */
+            /* display: grid; */
+        }
+
+        figcaption {
+            background-color: black;
+            color: azure;
+            font-style: italic;
+            padding: 3px;
+            text-align: center;
+        }
+
+        @media screen and (min-width:450px ) and (max-width:800px) {
+            body {
+                background-color: lightyellow;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Query Demo</h1>
+    <p class="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem at enim hic repellat, magnam aliquid, eligendi assumenda, qui deleniti pariatur accusantium fugiat dicta quam recusandae beatae dignissimos est velit reprehenderit! Sint natus similique neque obcaecati laboriosam quaerat quia magnam repellendus omnis excepturi autem praesentium, totam quasi minus, culpa cum nesciunt sequi nihil quidem reprehenderit tempore rerum suscipit consectetur voluptatem. Nisi quae dolores odio quibusdam laudantium! Earum ea molestiae facilis voluptas ex amet recusandae reprehenderit dignissimos perferendis ratione ipsum repellendus deserunt saepe atque maiores a facere in hic, nostrum dolorem ut sunt cupiditate quae. Doloremque ullam reiciendis soluta. Commodi magnam dignissimos aliquam est fuga pariatur odio tempora fugit delectus soluta molestias hic harum sint asperiores, modi error eligendi et, sit ducimus quos ut? Itaque vel, quis eaque nostrum et ad tenetur voluptatum assumenda dolor nihil, iste esse laboriosam ipsum deleniti unde optio in veniam perspiciatis quibusdam mollitia earum placeat ipsa odit iusto? Unde, saepe aliquam. Incidunt in, natus quia eius excepturi blanditiis id, nemo expedita commodi pariatur obcaecati possimus beatae neque voluptatum quos illum nesciunt qui nam. Excepturi ad laborum nulla necessitatibus enim autem nesciunt est vel possimus, dolor rem exercitationem, dolores ducimus magni ea explicabo, architecto dolorum sapiente molestias. In!.
+    </p>
+    <p class="para">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quae similique omnis, repudiandae voluptate non, architecto accusantium sit animi itaque est vel hic odio autem eius accusamus distinctio molestias nihil, iure libero asperiores voluptatibus? Atque nisi repudiandae, ab reprehenderit rem placeat, provident consequatur deserunt vitae, iure aut dolore voluptatum delectus recusandae error quaerat? Sapiente placeat id consequuntur nesciunt modi itaque iste quae beatae nemo ratione, nostrum commodi inventore asperiores. Ducimus reprehenderit, sapiente voluptatem praesentium perferendis amet sequi ex temporibus aliquid debitis quidem maiores, quis deserunt voluptatibus quibusdam unde facere ipsam aspernatur dolore tempore. Velit illo consequatur dolores obcaecati beatae consectetur!
+    </p>
+    <br>
+    <h2>Box Columns</h2>
+    <div id="div">
+
+        <figure class="figure">
+            <img class="img" src="../images/Happy cat.jpg" alt="Cat">
+            <figcaption>Photo 1</figcaption>
+        </figure>
+
+        <figure class="figure">
+            <img class="img" src="../images/Cat.jpg" alt="Cat">
+            <figcaption>Photo 2</figcaption>
+        </figure>  
+
+        <figure class="figure">
+            <img class="img" src="../images/Cat...jpg" alt="Cat">
+            <figcaption>Photo 3</figcaption>
+        </figure>
+
+        <figure class="figure">
+            <img class="img" src="../images/Cute cat.jpg" alt="Cat">
+            <figcaption>Photo 4</figcaption>
+        </figure>
+
+         <figure class="figure">
+            <img class="img" src="../images/Shoked cat.webp" alt="Cat">
+            <figcaption>Photo 5</figcaption>
+         </figure>
+
+         <figure class="figure">
+            <img class="img" src="../images/sad cat.jpg" alt="Cat">
+            <figcaption>Photo 6</figcaption>
+        </figure>
+
+    </div>
+</body>
+</html>
